@@ -1,0 +1,9 @@
+*.pydevproject
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+target
+.idea
+
