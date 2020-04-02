@@ -4,18 +4,17 @@ package com.lihd.java.tree;
  * @program: lihd-leetcode
  * @description:
  * @author: li_hd
- * @create: 2020-03-25 19:20
+ * @create: 2020-04-02 13:58
  **/
-public class TreeNode {
+public class ListNode {
 
     public int val;
 
-    public TreeNode left;
+    public ListNode next;
 
-    public TreeNode right;
-
-    public TreeNode(int x) {
+    ListNode(int x) {
         val = x;
     }
+
 
 }
