@@ -13,12 +13,12 @@ import org.junit.Test;
  **/
 public class L111Test {
 
-    @Test
-    public void test(){
+    static TreeNode root1 ;
 
-        L111 l111 = new L111();
+    static {
 
-        final TreeNode root1 = new TreeNode(1);
+        root1 = new TreeNode(1);
+
         final TreeNode root2 = new TreeNode(2);
         final TreeNode root22 = new TreeNode(2);
 
@@ -59,6 +59,14 @@ public class L111Test {
 
         root44.left = root5;
         root44.right = root55;
+    }
+
+    @Test
+    public void test(){
+
+        L111 l111 = new L111();
+
+
 
         Assert.assertEquals(l111.minDepth(root1),3);
 
