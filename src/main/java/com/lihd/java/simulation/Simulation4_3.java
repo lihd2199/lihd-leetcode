@@ -72,7 +72,7 @@ public class Simulation4_3 {
                 continue;
             }
 
-            if (c == ')' && left == right) {
+            if (c == ')') {
                 //说明之后的数字 就是我们需要的
                 if (i != length - 1) {
                     int num = i + 1;
