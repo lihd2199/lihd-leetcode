@@ -9,7 +9,7 @@ import java.util.Queue;
 
 /**
  * @program: lihd-leetcode
- * @description: 在每个树行中找最大值
+ * @description: 在每个树行中找最大值   (按行遍历)
  * 广度优先遍历的基本思路为：每次将根节点的相邻节点放入一个容器（队列）中，
  * 遍历到目前为止容器中所有节点，并在遍历的过程中再将每个节点的所有相邻节点放入容器中，重复此过程直到队列为空。
  * @author: li_hd
