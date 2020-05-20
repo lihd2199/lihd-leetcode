@@ -1,4 +1,4 @@
-package com.lihd.java;
+package com.lihd.java.sample;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,5 +1,6 @@
 package com.lihd.java;
 
+import com.lihd.java.sample.M0805;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.lihd.java;
+package com.lihd.java.sample;
 
 import com.lihd.java.tree.ListNode;
 
